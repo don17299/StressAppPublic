@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name"> <font size="33">StressApp UQ</font></string>
+    <string-array name="programs">
+        <item>Seleccione su Programa</item>
+        <item>Programa de Enfermeria</item>
+    </string-array>
+    <string-array name="opciones">
+        <item> </item>
+        <item>Nunca</item>
+        <item>Casi nunca</item>
+        <item>De vez en cuando</item>
+        <item>Casi siempre</item>
+        <item>Siempre</item>
+    </string-array>
+    <string name="ActiFiImp">
+        &#8226; La práctica físico-deportiva tiene un efecto positivo sobre la salud física y mental debido a que produce liberación de endorfinas\n\n
+        &#8226; El deporte y el ejercicio físico producen beneficios físicos, psicológicos y sociales siendo importantes tanto a nivel terapéutico como preventivo\n\n
+        &#8226; Reducción de la ansiedad, la depresión y el estrés. En tanto que cualquier tipo de actividad física, ya sea de bajo o alto impacto, liberan estas sustancias que actúan directamente sobre el cerebro produciendo sensación de bienestar y relajación inmediata.\n\n
+    </string>
+    <string name="ActiFiBen">
+        &#8226; Mejora el funcionamiento del sistema cardiovascular, respiratorio, digestivo y endocrino, fortaleciendo el sistema osteomuscular\n\n
+        &#8226; Aumenta la flexibilidad\n\n
+        &#8226; Contribuye a disminuir niveles séricos de colesterol y triglicéridos\n\n
+        &#8226; Contribuye a prevenir la obesidad\n\n
+        &#8226; intolerancia a la glucosa, obesidad y adiposidad.\n\n
+        &#8226; Permite la tolerancia al estrés\n\n
+        &#8226; Permite la adopción de hábitos protectores de la salud\n\n
+        &#8226; Mejora del autoconcepto y la autoestima\n\n
+        &#8226; Disminuye el riesgo percibido de enfermar\n\n
+        &#8226; Genera efectos tranquilizantes y antidepresivos\n\n
+        &#8226; Mejora los reflejos y la coordinación\n\n
+        &#8226; Aumenta  la sensación de bienestar\n\n
+        &#8226; Previene el insomnio\n\n
+        &#8226; Ayuda a regular  los ciclos de sueño\n\n
+        &#8226; Mejora los procesos de socialización\n\n
+</string>
+    <string name="ActiMuImp">
+        &#8226; Participar de un proceso de musicoterapia permite que el individuo se exprese por medio de elementos sonoros, posibilitando la externalización de sus conflictos emocionales sin la necesidad de hablar, algo que permite que acceda el inconsciente\n\n
+        &#8226; La música es un tratamiento no invasivo ni doloroso, no farmacológico y que no produce efectos secundarios, además de ser una terapia que no exige la demanda de mucho recurso financiero, materiales o espacio físico.\n\n
+    </string>
+    <string name="ActiMuBen">
+        &#8226; Permite disminuir los síntomas de estrés y depresión\n\n
+        &#8226; Contribuye a la reducción de la ansiedad\n\n
+        &#8226; Disminución de la frecuencia cardiaca y respiratoria\n\n
+        &#8226; Facilita el mejor conocimiento de sí mismo a través del ritmo\n\n
+        &#8226; Produce efectos relajantes al liberar dopamina\n\n
+        &#8226; Reduce el dolor y produce relajación.\n\n
+        &#8226; Refuerza la memoria\n\n
+        &#8226; Mejora las habilidades motoras y los lenguajes expresivos y receptivos.\n\n
+        &#8226; Las personas también pueden disfrutar de la sensación de logro al crear una pieza musical, lo que puede mejorar su estado de ánimo y autoestima.\n\n
+        &#8226; Ayuda a descubrir culturas diferentes\n\n
+        &#8226; La música entretiene a nuestro cuerpo. Nuestro cuerpo se entretiene con la música de manera natural, y es fácil realizar movimientos rítmicos.\n\n
+        &#8226; La música ayuda a mejorar el aprendizaje.\n\n
+</string>
+    <string name="ActiResImp">
+        La respiración es una de las mejores maneras de reducir el estrés en el cuerpo. Esto se debe a que cuando respira profundamente, el cuerpo envía un mensaje a su cerebro para calmarse y relajarse. Luego, el cerebro envía este mensaje al cuerpo. Disminuyendo aquellos factores que ocurren cuando se está estresado.\n
+        La respiración puede considerarse como el soplo vital, el proceso que permite la actividad metabólica del organismo. Mediante el intercambio de gases se produce el aporte de oxígeno necesario para las funciones de nuestro cuerpo.
+    </string>
+    <string name="ActiResBen">
+        &#8226; Contribuye a la disminución del estrés\n\n
+        &#8226; Reduce los síntomas de ansiedad\n\n
+        &#8226; Disminuye la tensión muscular\n\n
+        &#8226; Disminuye la irritabilidad\n\n
+        &#8226; Incrementa la autoeficacia\n\n
+        &#8226; Potencializa la concentración\n\n
+        &#8226; Disminuye la frecuencia cardiaca\n\n
+        &#8226; Reduce la tensión arterial\n\n
+</string>
+    <string name="ActiMeImp">
+    La meditación sirve para ser conscientes y observar lo que está sucediendo en cada instante en nuestro cuerpo y en nuestra mente, aceptando plenamente todas las experiencias que vivimos tal y como son, ayudándonos con esto a cambiar nuestros pensamientos de manera positiva y controlar los sentimientos que estos generan en nuestra mente.\n
+    La meditación es una herramienta útil para la regulación de nuestras emociones, ayudando con esto a alejarnos de los prejuicios y estereotipos, desarrollando la capacidad de analizar de forma positiva las experiencias de nuestro dia a dia.
+    </string>
+    <string name="ActiMeBen">
+        &#8226; Disminución de la ansiedad y el estrés.\n\n
+        &#8226; Reducción de pensamientos negativos y enojo.\n\n
+        &#8226; Desarrollo de valores positivos.\n\n
+        &#8226; Contribución a la autoestima y autorrealización.\n\n
+        &#8226; Sirve como complemento e incluso como alternativa ante algunos tratamientos farmacológicos los cuales producen efectos secundarios y en ocasiones generan dependencia tanto física como psicológica.\n\n
+</string>
+
+    <string name="ActiFiFont">
+        Tomado de:\n\n
+        &#8226;https://repository.ucc.edu.co/bitstream/20.500.12494/7318/6/2019_actividad_fisica_manejo.pdf\n\n
+        &#8226;https://dialnet.unirioja.es/descarga/articulo/2378944.pdf\n\n
+        &#8226;https://dialnet.unirioja.es/servlet/articulo?codigo=6369972\n
+    </string>
+    <string name="ActiMuFont">
+        Tomado de:\n\n
+        &#8226;https://www.researchgate.net/profile/Ednaldo-Dos-Santos/publication/335334104_Actuacion_de_la_musicoterapia_en_la_reduccion_del_estres_en_ambito_hospitalario/links/5d5ee006a6fdcc55e8212201/Actuacion-de-la-musicoterapia-en-la-reduccion-del-estres-en-ambito-hospitalario.pdf\n\n
+        &#8226;https://revistas.ucm.es/index.php/PSIC/article/view/68812\n
+        -Carrasco García, J., González López, I., y Cañizares Sevilla, A. B. (2020). Beneficios de la musicoterapia como opción integrativa en el tratamiento oncológico. Psicooncologia, 17(2).\n
+    </string>
+    <string name="ActiResFont">
+        Tomado de:\n\n
+        &#8226;Libro Mariano Chóliz: Técnicas para el control de la activación:relajación y respiración\n
+        https://www.uv.es/=choliz/RelajacionRespiracion.pdf\n\n
+        &#8226;http://www.repositorio.usac.edu.gt/10589/1/T13%20%282129%29.pdf\n\n
+        &#8226;https://d1wqtxts1xzle7.cloudfront.net/44465483/Estrategias_de_manejo_del_estrs__el_pape20160406-7750-6wdfbt-with-cover-page-v2.pdf?Expires=1633920911&amp;Signature=bBHuhuHXMRed-DdYRCfTORhb3m1yjQhFdOy7t2ByMsK2-Dwtr-C4nPmXoUHVCtFurX5ineay2Jq7a1DLD03r~yqxwz9yAdJAwAwUcrlGuivUYb3NHG1PplC7s5V97~5K4eujZFwdvHqBJVudnxrGQS2FJNKE99bh8pNAcMepYINuQ1N1EPiAM2McH-CFcs9wTHTPAZV0o1N9kUGt2yaE~8GzuDefB8Xjj2oKkQbMZB4gJjwScjKfKDC9VZC7IOjkvHPK-XuUT1rIbVJrgekyFWkFehuX8Shk2OljUD~ICAmeAtyjjVfkztBsnqjN6z1DllCk9srNMGz3KIlg1kJB~g__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA\n\n
+        &#8226;https://ifeelonline.com/4-tecnicas-de-respiracion-para-combatir-el-estres/\n\n
+        &#8226;https://espanol.kaiserpermanente.org/es/health-wellness/health-encyclopedia/he.manejo-del-estr%C3%A9s-ejercicios-de-respiraci%C3%B3n-para-relajaci%C3%B3n.uz2255\n
+    </string>
+    <string name="ActiMeFont">
+        Tomado de:\n\n
+        &#8226;Fernández, Karen et al. Meditación: análisis crítico de la experiencia de jóvenes universitarios en su vida cotidiana y salud. Cadernos Brasileiros de Terapia Ocupacional
+        [online]. 2019, v. 27, n. 4 [Accedido 10 Octubre 2021] , pp. 765-775. Disponible en:
+        https://www.scielo.br/j/cadbto/a/dGpHhDD6GMPCNWKbKq99Lnn/?lang=es\n\n
+        &#8226;Castillero Mimenza, O. (2021). 12 ejercicios de meditación (guía práctica y beneficios). Psicologiaymente.com.
+        [Accedido 10 Octubre 2021] Disponible en:
+        https://psicologiaymente.com/meditacion/ejercicios-meditacion\n
+    </string>
+
+    <string name="Encu">
+        Tomado de:\n\n
+        http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0034-74502020000400229
+    </string>
+
+
+
+</resources>

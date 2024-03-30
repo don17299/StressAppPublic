@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EjerciciosMeditacionActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView1M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Ejercicios"
+                android:textColor="@color/teal_700"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/audio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:text="Audio:"
+                android:textColor="#655E5E"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnPlayMe"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/ic_baseline_play_arrow_24" />
+
+                <SeekBar
+                    android:id="@+id/seekbarMe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:progress="0" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="30dp"
+                android:text="&#8226; Vaciar la mente:"
+                android:textColor="#655E5E"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView3M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="Se trata de una meditación centrada únicamente en la respiración. Con los ojos cerrados se debe centrar en la propia respiración sin intentar controlarla, focalizándose en la sensación del aire entrando y saliendo y obviando el resto de pensamientos, de manera que conseguirás obtener sensaciones de calma, tranquilidad y placidez."
+                android:textColor="#655E5E"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/textView4M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="&#8226; Cuenta atrás:"
+                android:textColor="#655E5E"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView5M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="Es de gran utilidad para mejorar la concentración. Con los ojos cerrados y en una posición cómoda se procede a hacer una cuenta atrás lentamente, desde números elevados (cincuenta o incluso cien) hasta al cero."
+                android:textColor="#655E5E"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:id="@+id/textView6M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="&#8226; Meditación en movimiento:"
+                android:textColor="#655E5E"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView7M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="Tradicionalmente se ha visto la meditación como algo a realizar de manera estática pero es posible meditar en movimiento aunque puede ser más complicado concentrarse. Se recomienda que sea en contacto con la naturaleza, como en un campo o en la playa. Se trata de dar paseos mientras la persona se focaliza en las sensaciones que está sintiendo en ese momento, como el calor del sol, la brisa, el roce del agua si llueve o está cerca del mar, el roce de las plantas, el movimiento de los propios músculos o las emociones que éstas despiertan."
+                android:textColor="#655E5E"
+                android:textSize="18sp"/>
+
+
+
+            <Button
+                android:id="@+id/btnMe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volver A Menu de Recursos"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/teal_700"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

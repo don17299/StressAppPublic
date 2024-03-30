@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EjerciciosMusicoterapiaActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView1M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Ejercicios"
+                android:textColor="@color/teal_700"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView2M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="1.Ejercicios con videos y musica guia:"
+                android:textColor="#655E5E"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView3M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="Música para Estudiar, Concentrarse y Memorizar:"
+                android:textColor="#655E5E"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn1M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abrir Video"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@android:color/holo_red_dark"/>
+
+            <TextView
+                android:id="@+id/textView4M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Destruye bloqueos inconscientes y negatividad:"
+                android:textColor="#655E5E"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btn2M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abrir Video"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@android:color/holo_red_dark"/>
+
+            <TextView
+                android:id="@+id/textView3Af"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Música Relajante:"
+                android:textColor="#655E5E"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btn3M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abrir Video"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@android:color/holo_red_dark"/>
+
+
+
+            <TextView
+                android:id="@+id/textView5M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="2.Transcripción canción:"
+                android:textColor="#655E5E"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView6M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="Tomar una canción de su elección y preferencia para luego realizar su transcripción
+Responder las preguntas:\n ¿Qué emociones genero?,\n ¿Qué piensa?,\n ¿Que le transmite?
+\nEjemplo/canción sugerida
+Marc Anthony - Vivir Mi Vida:
+"
+                android:textColor="#655E5E"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn4M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abrir Video"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@android:color/holo_red_dark"/>
+
+            <TextView
+                android:id="@+id/textView7M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="3.Escribir una canción:"
+                android:textColor="#655E5E"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView8M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:text="Ubicarse en un lugar tranquilo y realizar la creación de una canción en la que se permita transmitir lo que siente o lo que le esté sucediendo en el momento"
+                android:textColor="#655E5E"
+                android:textSize="18sp"/>
+
+
+            <Button
+                android:id="@+id/btnM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volver A Menu de Recursos"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/teal_700"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

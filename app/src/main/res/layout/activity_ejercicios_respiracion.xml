@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EjerciciosRespiracionActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView1M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Ejercicios"
+                android:textColor="@color/teal_700"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/audio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:text="Audio:"
+                android:textColor="#655E5E"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnPlayRes"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/ic_baseline_play_arrow_24" />
+
+                <SeekBar
+                    android:id="@+id/seekbarRes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:progress="0" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:text="1.Respiración profunda:"
+                android:textColor="#655E5E"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView3M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="Se trata de un ejercicio útil para la reducción del nivel de activación general.\n\n
+-Sentarse cómodamente, colocar la mano izquierda sobre el abdomen y la derecha sobre la izquierda.\n\n
+-Imaginar una bolsa vacía dentro del abdomen debajo de donde apoyan las manos. Comenzar a respirar y notar cómo se va llenando de aire la bolsa y la onda asciende hasta los hombros. Inspirar durante 3-5 segundos.\n\n
+-Mantener la respiración. Repetirse interiormente 'mi cuerpo está relajado'\n\n
+-Exhalar el aire despacio al mismo tiempo que se repite a uno mismo órdenes de relajación.\n\n
+Realizar 4 ó 5 ejercicios de respiración seguidos. Repetir los ejercicios 10- 15 veces al día en situaciones estresantes.\n
+"
+                android:textColor="#655E5E"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/textView4M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="2.Respiración alternada
+"
+                android:textColor="#655E5E"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView5M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="-Utilizar una posición cómoda y relajada.\n\n
+-Colocar el dedo pulgar en la fosa nasal derecha y los dedos anular y medio en la izquierda.\n\n
+-Fosa la ventana derecha con el pulgar e inspirar con la izquierda lenta y tranquilamente.\n\n
+-Separar el pulgar y ocluir con los otros dedos la fosa izquierda. Espirar por la fosa derecha.\n\n
+-Mantener el aliento un instante e inspirar por la derecha, manteniendo cerrada la izquierda. Cuando se desee espirar debe hacerse con la otra, la izquierda.\n\n
+ -Respirar de esta manera 5-10 minutos, o menos si comienza a notar antes la somnolencia.
+"
+                android:textColor="#655E5E"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:id="@+id/textView6M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="3.Respiración abdominal"
+                android:textColor="#655E5E"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView7M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="El objetivo aquí es inflar el diafragma, no el pecho.\n\n
+-Con una mano sobre el pecho y la otra sobre el vientre\n\n
+-Realizamos una respiración profunda por la nariz, sintiendo nuestro vientre crecer y nuestros pulmones estirarse.\n\n
+- Hacer seis a 10 respiraciones lentas y profundas durante 10 minutos todos los días.\n\n
+"
+                android:textColor="#655E5E"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:id="@+id/textView8M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="Otros"
+                android:textColor="#655E5E"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView9M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="-Soplar y apagar una vela colocada cada vez más alejada.\n\n
+            -Soplar y mover la llama pero sin apagarla (control del soplo)\n\n
+            -Empujar una pelota de ping-pong sobre una superficie lisa hacia otro compañero. Si no hay compañero se puede empujar sobre un plano inclinado.\n\n
+"
+                android:textColor="#655E5E"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btnR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volver A Menu de Recursos"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/teal_700"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

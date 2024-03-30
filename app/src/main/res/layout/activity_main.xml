@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="127dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="128dp"
+                android:layout_marginBottom="8dp"
+                android:text="Ingreso de Datos"
+                android:textColor="@color/teal_700"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="341dp"
+                android:layout_height="106dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="7dp"
+                android:gravity="center"
+                android:text="Esta aplicación fue creada exclusivamente para reunir información de los resultados de los estudiantes del programa de Enfermeria de la Universidad del Quindío"
+                android:textColor="#736D6D"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="305dp"
+                android:layout_height="82dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="58dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="Al continuar está dando consentimiento al uso de sus datos, No se compartira su información, solo se usara a modo de informe de los resultados de la encuesta"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonLogin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LinearLayoutInicio" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="88dp"
+                android:layout_height="77dp"
+                android:layout_marginStart="171dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="170dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/stressapp"
+                app:layout_constraintBottom_toTopOf="@+id/LinearLayoutInicio"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <Button
+                android:id="@+id/buttonLogin"
+                android:layout_width="313dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="Ingresar"
+                app:layout_constraintBottom_toTopOf="@+id/buttonLogin2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <Button
+                android:id="@+id/buttonLogin2"
+                android:layout_width="313dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="57dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="56dp"
+                android:layout_marginBottom="32dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="Ingresar como Admin"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonLogin" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutInicio"
+                android:layout_width="361dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="46dp"
+                android:layout_marginEnd="50dp"
+                android:orientation="vertical"
+                android:padding="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                <EditText
+                    android:id="@+id/InputNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nombre"
+                    android:minHeight="48dp" />
+
+                <EditText
+                    android:id="@+id/InputCorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Correo Institucional"
+                    android:minHeight="48dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="si ingresa un correo ya registrado sus datos seran actualizados"/>
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:entries="@array/programs"
+                    android:minHeight="48dp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@android:color/black" />
+
+
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

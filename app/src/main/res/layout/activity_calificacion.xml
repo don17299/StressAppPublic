@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalificacionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView1mr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Califica nuestra App"
+                android:textColor="@color/teal_700"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textResults"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/teal_700"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="left"
+                android:text="Califica la funcionalidad de la app:"
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:numStars="5"
+                android:progressBackgroundTint="#C9D1EA"
+                android:progressTint="#322F2F"
+                android:rating="0"
+                android:scaleX="1.2"
+                android:scaleY="1.2"
+                android:stepSize="1" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/black" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="left"
+                android:layout_marginTop="20dp"
+                android:text="Califica la calidad del contenido:"
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:numStars="5"
+                android:progressBackgroundTint="#C9D1EA"
+                android:progressTint="#322F2F"
+                android:rating="0"
+                android:scaleX="1.2"
+                android:scaleY="1.2"
+                android:stepSize="1" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/black" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="Califica la accesibilidad de la app:"
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:numStars="5"
+                android:progressBackgroundTint="#C9D1EA"
+                android:progressTint="#322F2F"
+                android:rating="0"
+                android:scaleX="1.2"
+                android:scaleY="1.2"
+                android:stepSize="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="Sugerencias:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/eTextS"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:inputType="textMultiLine"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                />
+
+            <Button
+                android:id="@+id/btnEnd"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="Calificar y Terminar" />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FuentesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="50dp">
+
+            <TextView
+                android:id="@+id/titleFont"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/teal_700"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/fontsContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:text="..."
+                android:textColor="#655E5E"
+                android:textIsSelectable="true"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/titleFont1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/teal_700"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/fontsContent1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:text="..."
+                android:textColor="#655E5E"
+                android:textIsSelectable="true"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/titleFont2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/teal_700"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/fontsContent2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:text="..."
+                android:textColor="#655E5E"
+                android:textIsSelectable="true"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/titleFont3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/teal_700"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/fontsContent3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:text="..."
+                android:textColor="#655E5E"
+                android:textIsSelectable="true"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/titleFont4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/teal_700"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/fontsContent4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:text="..."
+                android:textColor="#655E5E"
+                android:textIsSelectable="true"
+                android:textSize="23sp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
