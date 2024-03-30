@@ -19,5 +19,7 @@ This Framework was used to plan each phase of development.
 
 ## Designers
 Carlos Mario Duque Mejia mail: carlosm.duquem@uqvirtual.edu.co
+
 Kevin Orlando Franco Ballejo mail: kevino.francob@uqvirtual.edu.co
+
 Juan Manuel Adarve Cifuentes, mail: juanm.adarvec2@uqvirtual.edu.co
